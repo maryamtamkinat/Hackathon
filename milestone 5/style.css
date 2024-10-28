@@ -1,0 +1,132 @@
+body{
+    padding: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#resume-form{
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+    padding: 3%;
+    margin-left: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 247, 253);
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color:black;
+}
+
+fieldset{
+    width: 60%;
+    padding: 15px; 
+    margin: 20px; 
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(26, 25, 25);
+}
+
+label{
+    color: black;  
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+   background-color: rgb(243, 247, 248);
+   border: 1px solid black;
+}
+
+textarea{
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(243, 247, 248);
+    
+}
+
+button{
+    width: 400px;
+    margin-top: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;  
+    border: none;
+    background-color: rgb(165, 223, 223);
+    transition: .4s;
+    font-size: 1rem;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
+
+#resume-display{
+    width: 550px;
+    background-color: rgb(232, 247, 253);
+    border: 1px solid rgb(184, 225, 241);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+    margin-left: 375px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+
+}
+
+#resume-display h2{
+    text-align: center; 
+    color: rgb(102, 100, 100);
+    position: relative;
+}
+
+#resume-display h2:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    margin-top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 90px;
+    background-color: #2ecc71;
+}
+
+#download-pdf{
+  width: 150px;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(184, 231, 231);
+  box-shadow: 2px 2px 5px rgb(87, 102, 102);
+  font-weight: bold;
+  transition: .3s;
+}
+
+#download-pdf:hover{
+    transform: scale(1.05);
+}
