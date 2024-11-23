@@ -1,0 +1,219 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 10px;
+}
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume-form{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+    padding: 2vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(214, 241, 252); 
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+
+fieldset{
+    width: 330px;
+    padding: 1vw; 
+    margin: 1vw; 
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(25, 139, 184);
+    
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(26, 25, 25);
+}
+
+label{
+    color: black;  
+    font-size: 17px;
+}
+
+input{
+   height: 1.7vw;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0.5vw;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+textarea{
+    width: 300px;
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 0.5vw;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+
+button{
+    width: 330px;
+    margin-top: 10px;
+    padding: 1vw 3vw;
+    border-radius: 10px;  
+    border: none;
+    background-color: rgb(165, 223, 223);
+    transition: .4s;
+    font-size: 17px;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
+
+#get-resume{
+    width: 450px;
+    background-color: rgb(204, 230, 240);
+    border: 1px solid rgb(184, 225, 241);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    padding-right: 3vw;
+
+}
+
+#get-resume h2{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+#get-resume h3{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 1vw;
+}
+
+#get-resume p{
+    font-size: 17px;
+    margin-top: 2vw;
+} 
+
+
+@media (max-width:600px) {
+    #resume-form{
+        width: 85vw;
+        margin-top: 5vw;
+        display: flex;
+        align-items: center;
+        margin-left: 5vw;
+        padding: 5vw 0;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 5.5vw;
+        color:black;
+    }
+
+    legend{
+        font-size: 4.5vw; 
+    }
+
+    fieldset{
+        width: 20vw;
+        padding: 2vw; 
+        margin: 2vw; 
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid rgb(25, 139, 184);
+        
+    }
+   
+    
+    input{
+        height: 7vw;
+        width: 60vw;
+        border:1px solid black;
+        border-radius: 10px;
+        padding: 1.5vw;
+        font-size: 4vw;
+        margin: 2vw;
+    }
+
+    textarea{
+        width: 60vw;
+        padding: 2vw;
+        font-size: 3.5vw;
+        border-radius: 10px;
+        margin: 3vw;
+    }
+
+    label{
+        color: black;  
+        font-size: 4vw;
+        margin-left: 2vw;
+    }
+
+    button{
+        width: 60vw;
+        margin-top: 10px;
+        padding: 2vw 4vw;
+        border-radius: 10px;  
+        border: none;
+        background-color: rgb(165, 223, 223);
+        transition: .4s;
+        font-size: 4vw;
+    }
+    
+    button:hover{
+        transform: scale(1.01);
+    }
+
+    #get-resume{
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        padding-left: 5vw;
+    }
+    
+    #get-resume h2{
+        text-align: center;
+        font-size: 7vw;
+    }
+    
+    #get-resume h3{
+        font-size: 5vw;
+    }
+    
+    #get-resume p{
+        font-size: 4vw;
+    }
+    
+       
+}
+
+
