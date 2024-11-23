@@ -1,0 +1,311 @@
+body{
+    padding: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resume-form{
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+    padding: 1vw 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 247, 253);
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+}
+
+fieldset{
+    width: 350px;
+    padding: 0.5vw 1vw; 
+    margin: 1vw; 
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+    
+}
+
+legend{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(26, 25, 25);
+}
+
+label{
+    color: black;  
+    font-size: 17px;
+}
+
+input{
+    height: 2vw;
+    width: 330px;
+    border-radius: 1vw;
+    padding: 0.7vw;
+    margin: 0.5vw 0;
+    font-size: 15px;
+   background-color: rgb(243, 247, 248);
+   border: 1px solid black;
+}
+
+textarea{
+    width: 330px;
+    border-radius: 10px;
+    padding: 0.7vw;
+    margin: 0.5vw 0;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(243, 247, 248);
+    
+}
+
+button{
+    width: 300px;
+    margin: 1vw 0;
+    padding: 1vw;
+    border-radius: 1vw;  
+    border: none;
+    background-color: rgb(165, 223, 223);
+    transition: .4s;
+    font-size: 17px;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
+
+#resume-display{
+    width: 450px;
+    background-color: rgb(232, 247, 253);
+    border: 1px solid rgb(184, 225, 241);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+    margin-top: 3vw;
+    padding-left: 3.5vw;
+    padding-top: 1vw ;
+    padding-bottom: 1vw ;
+    padding-right: 3vw;
+}
+
+#resume-display h2{
+    text-align: center; 
+    font-size: 35px;
+    color: rgb(102, 100, 100);
+    position: relative;
+}
+
+
+#resume-display h2:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 5vw;
+    background-color: #2ecc71;
+}
+
+#resume-display h3{
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5vw;
+}
+
+#resume-display p{
+    font-size: 17px;
+    margin-top: 1vw;
+}
+
+#download-pdf{
+  width: 200px;
+  padding: 1vw 2vw;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(184, 231, 231);
+  box-shadow: 2px 2px 5px rgb(87, 102, 102);
+  font-weight: bold;
+  font-size: 17px;
+  transition: .3s;
+}
+
+#download-pdf:hover{
+    transform: scale(1.05);
+}
+
+#shareable-link-container h2{
+    font-size: 23px;
+}
+
+#shareable-link-container p{
+    font-size: 18px;
+}
+
+#shareable-link-container a{
+    font-size: 17px;
+}
+    
+    @media (max-width:600px) {
+        #resume-form{
+            width: 85vw;
+            margin-top: 5vw;
+            display: flex;
+            align-items: center;
+            padding-top: 5vw;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    
+        h1{
+            margin-left: 1vw;
+            text-align: center;
+            font-size: 6vw;
+            color:black;
+        }
+    
+        legend{
+            font-size: 4.5vw; 
+        }
+    
+        fieldset{
+            width: 60vw;
+            padding: 1.02vw; 
+            margin: 1vw; 
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid rgb(25, 139, 184);
+            
+        }
+       
+        
+        input{
+            height: 5vw;
+            width: 50vw;
+            border:1px solid black;
+            border-radius: 10px;
+            padding: 1.5vw;
+            font-size: 3.5vw;
+            margin: 1vw;
+        }
+    
+        textarea{
+            width: 50vw;
+            padding: 2vw;
+            font-size: 3.5vw;
+            border-radius: 10px;
+            margin: 1vw;
+        }
+    
+        label{
+            color: black;  
+            font-size: 3.5vw;
+        }
+    
+        button{
+            width: 50vw;
+            margin-top: 10px;
+            padding: 2vw 4vw;
+            border-radius: 10px;  
+            border: none;
+            background-color: rgb(165, 223, 223);
+            transition: .4s;
+            font-size: 3.5vw;
+        }
+        
+        button:hover{
+            transform: scale(1.01);
+        }
+    
+        #resume-display{
+            width: 80vw;
+            background-color: rgb(232, 247, 253);
+            border: 1px solid rgb(184, 225, 241);
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgb(88, 87, 87);
+            margin-left: 4vw;
+            margin-top: 3vw;
+            padding-left: 2vw;
+            padding-top: 1vw ;
+            padding-bottom: 1vw ;
+        }
+        
+        #resume-display h2{
+            text-align: center; 
+            font-size: 7vw;
+            color: rgb(102, 100, 100);
+            position: relative;
+        }
+        
+        
+        #resume-display h2:after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            margin-top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 2px;
+            width: 20vw;
+            background-color: #2ecc71;
+        }
+        
+        #resume-display h3{
+            font-size: 5vw;
+        }
+        
+        #resume-display p{
+            font-size: 4vw;
+        }
+        
+        #download-pdf{
+          width: 35vw;
+          padding: 2vw 2vw;
+          margin-top: 15px;
+          border: none;
+          border-radius: 5px;
+          background-color: rgb(184, 231, 231);
+          box-shadow: 2px 2px 5px rgb(87, 102, 102);
+          font-weight: bold;
+          font-size: 4vw;
+          transition: .3s;
+        }
+        
+        #download-pdf:hover{
+            transform: scale(1.05);
+        }
+    
+        #shareable-link-container{
+          margin-left: 8vw;
+           width: 70vw;
+        }
+        
+        #shareable-link-container h2{
+            font-size: 5vw;
+        }
+    
+        #shareable-link-container p{
+            font-size: 3.5vw;
+        }
+        
+        #shareable-link-container a{
+            font-size: 3vw;
+        }
+        
+     }
+       
