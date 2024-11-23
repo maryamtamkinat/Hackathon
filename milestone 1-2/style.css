@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 8vw;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-container {
+  display: flex;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-sec {
+  background-color: rgb(214, 209, 209);
+  color: rgb(14, 13, 13);
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 12vw;
+  border-radius: 50%;
+  margin-bottom: 3px;
+  box-shadow: 4px 5px 10px #464747;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 2vw;
+}
+
+h3 {
+  font-size: 1.5vw;
+  padding: 0.7vw;
+  margin-top: 1.2vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s;
+}
+
+h3:hover {
+  transform: translateY(-7px);
+}
+
+h3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 0.2vw;
+  width: 5vw;
+  background-color: #2ecc71;
+}
+
+p {
+  font-size: 16px;
+}
+
+#career-objective{
+  line-height: 1.5vw;
+  text-align: justify;
+   hyphens: auto; 
+   margin-top: 2vw;
+}
+
+ul {
+  list-style-type: fill round;
+  padding: 1vw;
+  margin: 0.5vw 0;
+}
+
+ul li {
+  margin: 0.3vw 0;
+  font-size: 16px;
+}
+
+.right-sec {
+  padding: 2vw;
+  width: 60%;
+  margin-left: 5%;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #aeebc7;
+  box-shadow: 0 0 15px #aeebc7;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 2px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #aeebc7;
+  transform: scale(1.05);
+}
+
+@media (max-width: 750px) {
+.resume-container{
+  width: 55vw;
+}
+  h1 {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.7vw;
+    padding: 0.7vw;
+    margin-top: 0;
+    margin-bottom: 2vw;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  p {
+    font-size: 1.5vw;
+  }
+
+  ul li {
+    margin: 0.3vw 0;
+    font-size: 1.5vw;
+  }
+
+  @media (max-width: 550px) {
+
+    .resume-container{
+      width: 90vw;
+      margin-top: 5vw;
+    }
+    h1 {
+      font-size: 4.3vw;
+    }
+
+    h3 {
+      margin-top: 5vw;
+      font-size: 4vw;
+      position: relative;
+    }
+
+    h3::after{
+      content: "";
+      position: absolute;
+       bottom: 0;
+       left: 50%;
+       transform: translateX(-50%);
+       height: 0.4vw;
+       width: 10vw;
+       background-color: #2ecc71;
+
+    }
+
+    p {
+      font-size: 3vw;
+    }
+
+    ul li {
+      margin: 0.3vw 0;
+      font-size: 3.3vw;
+    }
+
+    .left-sec {
+      width: 30vw;
+      padding: 2vw;
+    }
+
+    .profile-pic{
+      width: 29vw;
+    }
+
+    .right-sec {
+      width: 55vw;
+      padding: 2vw;
+      margin-left: 2vw;
+    }
+
+    #career-objective{
+    line-height: 4vw;
+    }
+
+    button{
+      width: 25vw;
+      font-size: 3vw;
+      font-weight: 500;
+      margin-top: 2vw;
+    }
+  }
+}
